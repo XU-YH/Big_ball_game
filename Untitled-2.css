@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body,form,input,{margin:0; padding:0; border:none}
+body{
+	background:url(QQ%E5%9B%BE%E7%89%8720160607200737.png) no-repeat;
+	}
+.list{
+	width:400px;
+	height:300px;
+	background: no-repeat;
+    margin:50px auto;
+	padding-top:70px;
+	}
+input{
+		display:block;
+		width:300px;
+		height:40;
+		background-color: #FFF;
+		border:2px solid #4f5556;
+		margin:25px auto;
+	
+		padding-left:10px;
+		}
+.btn{
+	width:300px;
+	height:40px;
+	background: url(QQ%E6%88%AA%E5%9B%BE20160607173758.png) repeat-x;
+	border:none;
+	color: #003;
+	font-family: "微软雅黑";
+	font-size:20px;
+	}	
+div{margin-top:250px;text-align:center;}
+span{color:#C3C;font-size:40px;
+font-family:"楷体"}

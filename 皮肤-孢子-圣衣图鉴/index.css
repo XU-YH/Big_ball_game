@@ -1,0 +1,670 @@
+/* CSS Document 
+use for:18183.com
+version:1.0
+Data:2014/10/23
+Author:+c
+*/
+/* css reset */
+body{margin:0;padding:0; font-family:"宋体",Arial;font-size:12px;color:#404040;}
+a{color:#404040;text-decoration:none;}
+a:hover{color:#ff3600;text-decoration:underline}
+p{word-break: break-all;}
+.warpper{margin:0 auto;width:1000px;}
+.main{ width:980px; background:#fff; border:1px solid #e1e1e1; border-width:0 1px 1px; padding:0 9px 30px;}
+.hr_20{clear:both;font-size: 0;height:20px;line-height: 1px;overflow: hidden;}
+.hr_40{clear:both;font-size: 0;height:40px;line-height: 1px;overflow: hidden;}
+.w_597{ width:597px; overflow:hidden;}
+.w_350{ width:350px; overflow:hidden;}
+.w_280{ width:280px; overflow:hidden;}
+.w_340{ width:340px; overflow:hidden;}
+.w_290{ width:290px; overflow:hidden;}
+.w_978{ width:978px; overflow:hidden;}
+.w_658{ width:658px; overflow:hidden;}
+.w_288{ width:288px; overflow:hidden;}
+.w_300{ width:300px; overflow:hidden;}
+.w_610{ width:610px; overflow:hidden;}
+.w_644{ width:644px; overflow:hidden;}
+.w_670{ width:670px; overflow:hidden;}
+.w_292{ width:292px; overflow:hidden;}
+.w_675{ width:675px; overflow:hidden;}
+
+.re_com{ background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -540px no-repeat; padding-left:14px; height:20px;display:block; line-height:20px;}
+.re_tit_bg1{ background:url(http://www.18183.com/templets/dtll/img/tit_r1.jpg) left top repeat; height:32px; line-height:32px; position:relative;}
+.re_tit_bg2{ background:url(http://www.18183.com/templets/dtll/img/tit_r2.jpg) left top repeat; height:32px; line-height:32px; position:relative;}
+.re_tit_bg1 .fr,.re_tit_bg2 .fr{margin-right:15px; display:inline;}
+.re_tit_bg1 .fr a{color:#406a93;}
+.re_tit_bg2 .fr a{color:#e55858;}
+.re_tit_bg1 .ht1,.re_tit_bg2 .ht1{ color:#4d95da; font:18px/28px "微软雅黑"; padding-left:22px; font-weight:600;}
+.re_tit_bg2 .ht1{ color:#e55858;}
+.re_tit_bg1 .ht2,.re_tit_bg2 .ht2{color:#4d95da; font:18px/28px "微软雅黑"; padding:0 20px; font-weight:600; border-top:3px solid #4d95da; position:absolute; left:0; top:-1px; background-color:#fff; height:30px;}
+.re_tit_bg1 .ht3,.re_tit_bg2 .ht3{color:#4d95da; font:20px/22px "微软雅黑"; font-weight:600;}
+.re_tit_bg1 .ht4,.re_tit_bg2 .ht4{color:#4d95da; font:18px/28px "微软雅黑"; font-weight:600; text-align:center;}
+.re_tit_bg2 .ht4,.re_tit_bg2 .ht3{ color:#e55858;}
+.re_tit_bg2 .ht2{ border-color:#e55858; color:#e55858;}
+.re_tit_bg1 .z,.re_tit_bg2 .z{ width:11px; height:11px; position:absolute; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat;}
+.re_tit_bg1 .z1,.re_tit_bg2 .z1{ left:2px; top:2px; background-position:0 -568px;}
+.re_tit_bg1 .z2,.re_tit_bg2 .z2{ right:2px; bottom:2px; background-position:0 -583px;}
+.re_tit_bg2 .z1{background-position:0 -602px;}
+.re_tit_bg2 .z2{background-position:0 -617px;}
+.re_box{ border:1px solid #e7e7e7;}
+.re_wire {background-color:#e7e7e7;clear:both;font-size: 0;height: 1px;line-height: 1px;overflow: hidden;}
+.re_wire_e{background:url(http://www.18183.com/templets/dtll/img/i_wire.jpg) left top repeat;clear:both;font-size: 0;height:9px;line-height: 1px;overflow: hidden;}
+.bottom_toolbar .bottom_toolbar_info{ border:none;}
+
+/*tab-1 tab-2*/
+.re_tab_lan .tab_menu li,.re_tab_red .tab_menu li{height:33px;float:left; padding:0 24px; margin-top:-1px; line-height:33px; font-size:14px; color:#4d95da; position:relative; cursor:pointer; font-weight:600;}
+.re_tab_lan .tab_menu li.select,.re_tab_red .tab_menu li.select{ background-color:#4d95da; color:#fff;}
+.re_tab_lan .tab_menu li.select span,.re_tab_red .tab_menu li.select span{ width:5px; height:3px; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -1016px no-repeat; display:block; position:absolute; left:50%; bottom:-3px; margin-left:-3px;}
+.re_tab_red .tab_menu li{ color:#e55858;}
+.re_tab_red .tab_menu li.select{ background-color:#e55858;}
+.re_tab_red .tab_menu li.select span{ background-position:0 -971px;}
+
+
+/*导航*/
+.la_nav{position:relative; margin-top:435px;}
+.la_nav .nav{ background:url(http://www.18183.com/templets/dtll/img/nav_bg.jpg) left top repeat-x; height:45px; padding:5px 0 0 34px; width:966px; position:relative;}
+.la_nav .nav a{ color:#fff;}
+.la_nav .nav a:hover{ text-decoration:none;}
+.la_nav .nav ul{ width:100%;}
+.la_nav .nav ul li{ height:45px; font:16px/42px "微软雅黑"; margin-left:-3px; display:inline;float: left;}
+.la_nav .nav ul li a{display:block; height:45px; padding:0 21px 0 18px; background:url(http://www.18183.com/templets/dtll/img/nav_fg.png) right center no-repeat; transition: background-color 450ms ease 0s,color 450ms ease 0s;}
+.la_nav .nav ul li.on a,.la_nav .nav ul li a:hover{background-color:#fff; color:#4f96d8; background-image:none;}
+.la_nav .nav .nav_btn_a{ width:126px; height:71px; background:url(http://www.18183.com/templets/dtll/img/nav_btn.png) 0 0 no-repeat; position: absolute; right:70px; top:-21px; display:block; padding-left:52px;}
+.la_nav .nav .btn_a_on{ background-position:0 -71px;}
+.la_nav .nav .nav_btn_a a{ width:76px; height:70px;font:16px/64px "微软雅黑";display:block;}
+.la_nav .nav .nav_btn_b{ width:90px; height:54px; background:url(http://www.18183.com/templets/dtll/img/nav_btn.png) 0 -142px no-repeat; position: absolute; right:0; top:-4px; display:block; padding-left:48px;}
+.la_nav .nav .btn_b_on{ background-position:0 -196px;}
+.la_nav .nav .nav_btn_b a{font:16px/54px "微软雅黑";width:90px; height:54px; display:block;}
+.la_nav .nav .or1{ position:absolute; left:0; top:0; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -434px no-repeat; width:21px; height:21px; display:block; overflow:hidden;}
+.la_nav .nav .or2{ position:absolute; right:214px; top:4px; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -1132px no-repeat; width:11px; height:11px; display:block;overflow:hidden;}
+.la_nav .nav_fp{ padding:0 25px; width:950px; background-color:#fff; border-bottom:2px solid #f0ebeb; overflow:hidden; position:relative;}
+.la_nav .nav_fp .fd_sp{ position:absolute; bottom:3px; width:20px; height:20px; overflow:hidden; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat;}
+.la_nav .nav_fp .sp1{ left:3px; background-position:0 -200px;}
+.la_nav .nav_fp .sp2{ right:3px; background-position:0 -220px;}
+.nav_search { position:absolute; top:-56px; left:186px;}
+.nav_search .gift{background:url(http://www.18183.com/templets/dtll/img/sea_r.jpg) left top repeat-x; height:36px; display:inline; float:left;}
+.nav_search .gift a{ background:url(http://www.18183.com/templets/dtll/img/sea_l.jpg) left top no-repeat; height:36px; display:block; padding:4px 4px 4px 55px;}
+.nav_search .gift a span{ height:28px; line-height:28px; background:#fff; display:block; padding:0 10px; font-size:14px; border-radius:2px;}
+.nav_search .gift a:hover{ text-decoration:none;}
+.nav_search .collect{ background:url(http://www.18183.com/templets/dtll/img/sea_y.jpg) left top no-repeat; height:36px; width:60px; margin-left:2px; display:inline; float:left;}
+
+
+/*游戏资料*/
+.re_gamedatum{ border-bottom:1px dotted #c5c5c5; overflow:hidden; padding:6px 0;}
+.re_gamedatum .t{ width:66px; height:19px; overflow:hidden; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; line-height:18px; text-align:center; color:#fff; font-size:14px; font-weight:600; margin-top:5px; display:inline;}
+.re_gamedatum .t1{ background-position:0 -353px;}
+.re_gamedatum .t2{ background-position:0 -391px;}
+.re_gamedatum .t3{ background-position:0 -372px;}
+.re_gamedatum  .c{ width:874px; overflow:hidden; line-height:30px;white-space:nowrap;  }
+.re_gamedatum  .c a,.re_gamedatum  .c span{ float:left;}
+.re_gamedatum  .c a{ display:block; padding:0 10px; height:30px; position:relative;}
+.re_gamedatum  .c a:hover{ text-decoration:none; color:#fff; background-color:#e55858; border-radius:2px;}
+.re_gamedatum  .c span{ margin:0 10px; display:inline; color:#ccc;}
+.re_gamedatum  .c a i{ float:left; cursor:pointer;}
+.re_gamedatum  .c a .bi{ width:22px; height:30px;background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; overflow:hidden; float:left;}
+.re_gamedatum  .c a .new{ background-position:3px -704px;}
+.re_gamedatum  .c a .hot{ background-position:3px -675px;}
+.re_gamedatum  .c a .newr{ background-position:3px -646px;}
+
+.nav_fp .hero_ico{ height:105px; overflow:hidden; padding:15px 0;}
+.nav_fp .hero_ico .tit{ width:21px; height:48px; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat;color:#fff; font-size:14px; font-weight:600; text-align:center; line-height:16px; padding:6px 0; margin-right:6px; display:inline; margin-top:14px;}
+.nav_fp .hero_ico .t1{ background-position:0 -80px;}
+.nav_fp .hero_ico .t2{ background-position:0 -140px; margin-left:26px;}
+.nav_fp .hero_ico ul li{ width:84px; height:105px; float:left; padding-left:3px;}
+.nav_fp .hero_ico ul li a{width:84px; height:92px; border-bottom:3px solid #d5eeff; background-color:#d5eeff; display:block; padding-top:10px;}
+.nav_fp .hero_ico ul li img{ width:60px; height:60px; display:block; margin:0 auto;}
+.nav_fp .hero_ico ul li p{ height:30px; line-height:32px; overflow:hidden; text-align:center;}
+.nav_fp .hero_ico ul li a:hover{ text-decoration:none;border-bottom:3px solid #e55858; background-color:#e57f7f;}
+.nav_fp .hero_ico ul li a:hover p{ color:#fff;}
+
+/*MOD-1*/
+.la_picshow{ width:100%; overflow:hidden; padding:20px 0; border-bottom:2px solid #f0ebeb;}
+.la_picshow li{float:left; overflow:hidden;}
+.la_picshow li img,.la_picshow li a{ width:100%; height:100%; display:block; position:relative;}
+.la_picshow li.lmax{ width:324px; height:349px;}
+.la_picshow li.rl{width:323px;height:172px;margin-left:5px;display:inline;}
+.la_picshow li.l3,.la_picshow li.l4{ margin-top:5px;}
+.la_picshow li p{ height:36px; line-height:36px; position:absolute; bottom:0; left:0; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat; color:#fff; font-size:16px; display:block; overflow:hidden; padding:0 16px; z-index:2;}
+.la_picshow li.lmax p{ width:292px;}
+.la_picshow li.rl p{ width:291px;}
+.la_picshow li .cov{ position:absolute; left:0 ; top:0; width:100%; height:100%; z-index:3; background-color:#000; opacity:0.6;display:none;}
+.la_picshow li a:hover .cov{ display:block;}
+.la_picshow li a:hover{ text-decoration:none;}
+
+
+/*MOD-2*/
+.la_news dl{ width:100%; overflow:hidden;}
+.la_news dl dt{ width:172px; height:130px; float:left;}
+.la_news dl dt img{ width:172px; height:130px; display:block;}
+.la_news dl dd{ width:405px; height:128px; float:right;border-bottom:1px dotted #c5c5c5; overflow:hidden; position:relative;}
+.la_news dl dd h2{ height:18px; line-height:18px; overflow:hidden; margin-top:10px;}
+.la_news dl dd h2 span{ width:34px; height:17px; float:left; display:block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -240px no-repeat; text-align:center; font-size:12px; font-weight:normal; color:#fff; margin-right:5px; display:inline;}
+.la_news dl dd h2 a{ color:#e55858; font-size:16px;}
+.la_news dl dd p{ color:#7f7f7f; line-height:26px; height:78px; overflow:hidden; margin-top:12px;}
+.la_news dl dd .re_com{ position:absolute; right:5px; bottom:14px; background-color:#fff;}
+
+.news_c{ width:595px;}
+.news_c .tab_main{ padding:5px 0;}
+.news_c .tab_main ul{ width:100%;}
+.news_c .tab_main ul li{ height:40px; font-size:14px; line-height:40px; overflow:hidden;}
+.news_c .tab_main ul li a{ height:40px; display: block; padding:0 47px 0 33px; overflow:hidden; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 20px -1024px no-repeat;}
+.news_c .tab_main ul li code{color:#7f7f7f; font-size:12px;}
+.news_c .tab_main ul li a:hover{ background-color:#f4f4f4; text-decoration:none; background-position:20px -1061px;}
+.news_c .tab_main ul li a:hover code{color:#ff3600;}
+.news_c .tab_main ul li span{ width:16px; height:16px; display:inline-block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -906px no-repeat; vertical-align:middle; margin-left:5px;}
+
+.mod2_pic_text .pic{ width:350px; height:262px; overflow:hidden;}
+.mod2_pic_text .pic a{position:relative;}
+.mod2_pic_text .pic img,.mod2_pic_text .pic a{width:350px; height:262px; display:block;}
+.mod2_pic_text .pic .info{ width:320px; height:46px; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat; position:absolute; left:0; bottom:0;overflow:hidden; color:#fff; padding:8px 15px;}
+.mod2_pic_text .pic .info h4{ height:26px; line-height:26px; font-size:16px; overflow:hidden;}
+.mod2_pic_text .pic .info p{ height:20px; overflow:hidden; line-height:20px;}
+.mod2_pic_text .pic .info p i{ color:#ff5656;}
+.mod2_pic_text ul{ width:354px;}
+.mod2_pic_text ul li{ width:173px; height:62px; float:left; margin:4px 4px 0 0; display:inline;}
+.mod2_pic_text ul li a{ width:173px; height:62px; display:block; background-color:#e5e8e8; line-height:62px; text-align:center; font-size:16px; color:#010101;}
+.mod2_pic_text ul li a:hover{ background-color:#e55858; color:#fff; text-decoration:none;}
+
+/*MOD-3*/
+.la_prospect dl{ height:72px; padding:12px 15px 0; overflow:hidden; margin-top:6px;}
+.la_prospect dl dt{ width:72px; height:72px; float:left; overflow:hidden;}
+.la_prospect dl dt img{ width:72px; height:72px; display:block;}
+.la_prospect dl dd{ width:164px; padding-left:12px; float:left;}
+.la_prospect dl dd h4{ height:24px; line-height:24px; overflow:hidden; font-size:16px;}
+.la_prospect dl dd h4 a{ color:#e55858;}
+.la_prospect dl dd p{height:26px; line-height:26px; overflow:hidden; }
+.la_prospect dl dd .btn{ height:20px; overflow:hidden;}
+.la_prospect dl dd .btn a{ width:46px; height:20px; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -20px no-repeat; display:block; text-align:center; line-height:20px; color:#fff; float:right;}
+.la_prospect dl dd .btn a:hover{ background-position:0 0; text-decoration:none;}
+.la_prospect ul{ padding:0 12px;}
+.la_prospect ul li{ height:37px;line-height:37px; overflow:hidden; float:left; width:116px; padding-right:12px; border-bottom:1px dotted #c5c5c5;}
+.la_prospect ul li a{ height:37px; display: block; padding:0 0 0 15px; overflow:hidden; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 4px -1025px no-repeat;}
+.la_prospect ul li a:hover{text-decoration:none; background-position:4px -1062px;}
+
+.la_critique{ margin-left:30px; display:inline;}
+.la_critique .tit{ height:32px; border-top:1px solid #e7e7e7; position:relative;}
+.la_critique .tit h3{color:#4d95da; font:18px/26px "微软雅黑"; padding:0 12px; position:absolute; top:-1px; left:0; height:30px;border-top:2px solid #4d95da; font-weight:600;}
+.la_critique dl{ height:120px; padding:12px 0 24px; overflow:hidden; margin-top:6px;border-bottom:1px dotted #c5c5c5;}
+.la_critique dl dt{ width:160px; height:120px; float:left; overflow:hidden;}
+.la_critique dl dt img{  width:160px; height:120px; display:block;}
+.la_critique dl dd{ width:165px; padding-left:15px; float:left;}
+.la_critique dl dd h4{ height:22px; line-height:22px; overflow:hidden; font-size:16px;}
+.la_critique dl dd h4 a{ color:#e55858;}
+.la_critique dl dd p{height:66px; line-height:22px; overflow:hidden; color:#7f7f7f; margin-top:11px;}
+.la_critique dl dd .btn{ height:20px; overflow:hidden; margin-top:5px; }
+.la_critique dl dd .btn a{float:right;}
+
+.la_rec .tab_menu li{ width:145px; padding:0; text-align:center;}
+.la_rec .tab_main ul{ overflow:hidden;}
+.la_rec .tab_main ul li{ width:70px; line-height:34px; height:104px; margin:20px 0 0 20px; display:inline; text-align:center; overflow:hidden;float:left;}
+.la_rec .tab_main{ padding-bottom:10px;}
+.la_rec .tab_main ul li img{ width:70px; height:70px; display:block;}
+.la_rec .tab_main .info{ width:260px; margin:12px auto 0;border-top:1px dotted #c5c5c5; position:relative; padding-top:15px;}
+.la_rec .tab_main .info p{ height:44px; line-height:22px; overflow:hidden; color:#7f7f7f;}
+.la_rec .tab_main .info p i{ color:#414141; font-weight:600;}
+.la_rec .tab_main .info .re_com{ position:absolute; bottom:2px; right:0;}
+
+/*MOD-4*/
+.la_peck .item a{ padding:10px 15px; height:72px; display:block;border-bottom:1px dotted #c5c5c5;}
+.la_peck dl{ height:72px;overflow:hidden;}
+.la_peck dl dt{ width:72px; height:72px; float:left; overflow:hidden;}
+.la_peck dl dt img{ width:72px; height:72px; display:block;}
+.la_peck dl dd{ width:164px; padding-left:12px; float:left;}
+.la_peck dl dd h4{ height:30px; line-height:30px; overflow:hidden; font-size:14px; font-weight:normal;}
+.la_peck dl dd .btn{ height:20px; overflow:hidden; margin-top:12px;}
+.la_peck dl dd .btn p{ width:46px; height:20px; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -60px no-repeat; display:block; text-align:center; line-height:20px; color:#fff; float:right;}
+.la_peck .item a:hover{ background-color:#fafaf9;text-decoration:none;}
+.la_peck .item a:hover .btn p{ background-position:0 -40px;}
+.la_peck .item:last-child a{ border:none;}
+
+.la_freq{ height:298px;}
+.la_freq ul{ width:674px; overflow:hidden;}
+.la_freq li{height:147px; margin:0 4px 4px 0; display:inline; float:left; position:relative;}
+.la_freq li.l1,.la_freq li.l3,.la_freq li.l1 .cov,.la_freq li.l3 .cov,.la_freq li.l1 .cov .bo,.la_freq li.l3 .cov .bo{ width:380px;overflow:hidden;}
+.la_freq li.l2,.la_freq li.l4,.la_freq li.l2 .cov,.la_freq li.l4 .cov,.la_freq li.l2 .cov .bo,.la_freq li.l4 .cov .bo{ width:286px;overflow:hidden;}
+.la_freq li img{ width:100%; height:100%; display:block;}
+.la_freq li .cov{ height:147px; position:absolute; top:0;z-index:1;}
+.la_freq li .cov .bo{height:100%; overflow:hidden;}
+.la_freq li .cov h4{ height:48px; overflow:hidden;margin-top:49px;font:18px/24px "微软雅黑"; color:#fff;text-align:center;word-break: break-all; display:inline; float:left;}
+.la_freq li.l1 .cov{ background-color:#c86f6f;right:-188px;}
+.la_freq li.l2 .cov{ background-color:#5f9259; left:0; width:124px;}
+.la_freq li.l3 .cov{ background-color:#5082ae;left:0; width:192px;}
+.la_freq li.l4 .cov{ background-color:#4787c0;right:-162px;}
+.la_freq li.l1 .cov h4,.la_freq li.l3 .cov h4{width:128px; padding:0 32px; }
+.la_freq li.l2 .cov h4,.la_freq li.l4 .cov h4{width:84px; padding:0 20px; }
+.la_freq li .cov p{float:left; line-height:24px; height:72px; overflow:hidden; color:#fff; margin-top:36px; overflow:hidden;}
+.la_freq li.l1 .cov p,.la_freq li.l3 .cov p{ width:175px; }
+.la_freq li.l2 .cov p,.la_freq li.l4 .cov p{ width:152px; }
+.la_freq li .btn{width:68px;height:20px; line-height:20px; overflow:hidden;position:absolute; bottom:0; right:0; z-index:3; display:none;}
+.la_freq li .btn a{height:20px;text-align:center; color:#000; background-color:#fff; opacity:0.5; display:block;}
+.la_freq li .zs{ width:20px; height:20px; display:block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -1111px no-repeat; position:absolute; bottom:3px; left:3px; z-index:2; display:none;}
+
+
+/*MOD-5*/
+.la_picxs .tab_main{ padding:25px 15px 0;}
+.la_picxs .dl1{ width:100%; overflow:hidden;}
+.la_picxs .dl1 dt{ width:108px; height:108px;padding:4px; border:1px solid #d3e4e5; background-color:#ecf2f3;}
+.la_picxs .dl1 dt img{ width:108px; height:108px; display:block;}
+.la_picxs .dl1 .dd1{ padding-left:15px; width:155px;}
+.la_picxs .dl1 .dd1 h4{ height:30px; line-height:30px; font-size:16px; font-weight:normal;}
+.la_picxs .dl1 .dd1  p{ line-height:22px; height:22px; overflow:hidden;}
+.la_picxs .dl1 .dd1  p span{ height:22px; display:block; float:left;}
+.la_picxs .dl1 .dd1  p span.s1{ width:86px;}
+.la_picxs .dl1 .dd1  p span.s2{ width:69px;}
+.la_picxs .dl1 .dd1  p i{ color:#e55858;}
+.la_picxs .dl1 .dd2{ line-height:22px; clear:both; padding-top:10px;position:relative;}
+.la_picxs .dl1 .dd2 p{ height:44px; overflow:hidden; text-indent:2em;}
+.la_picxs .dl1 .dd2 .btn{ position:absolute; right:0; bottom:2px;}
+
+.picxs_show { width:288px; height:114px;overflow:hidden; padding:20px 0;}
+.picxs_show ,.scrollDiv{position:relative; z-index:2}
+.picxs_show  .rightscroll,.picxs_show  .leftscroll{ position:absolute;top:60px; display:block;width:12px; height:20px;overflow:hidden; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; z-index:5; background-color:#add2f5;}
+.picxs_show  .leftscroll{left:0; background-position:0 -852px;}
+.picxs_show  .rightscroll{ right:0; background-position:0 -873px;}
+.picxs_show  .leftscroll:hover,.picxs_show  .rightscroll:hover{ background-color:#4d95da;}
+.picxs_show  .scrollDiv{ margin:0 auto; font-size:12px; width:243px; height:114px; overflow:hidden;}
+.picxs_show  .scrollDiv ul{position:absolute; width:400%;}
+.picxs_show  .scrollDiv li{width:115px; margin:0 13px 0 0;height:114px; overflow:hidden; display:inline; float:left;}
+.picxs_show  .scrollDiv img{ width:115px; height:90px; display:block;overflow:hidden; }
+.picxs_show  .scrollDiv ul li p{ height:24px; line-height:24px; text-align:center;overflow:hidden;}
+
+.la_picxs .dl2{ width:178px; overflow:hidden;}
+.la_picxs .dl2 dt{ width:80px; height:80px; float:left;}
+.la_picxs .dl2 dt img{ width:80px; height:80px; display:block;}
+.la_picxs .dl2 dd{ padding-left:10px; width:88x; float:left;}
+.la_picxs .dl2 dd h4{ height:30px; line-height:30px; font-size:16px; font-weight:normal;}
+.la_picxs .dl2 dd  p{ line-height:22px; height:22px; overflow:hidden;}
+.la_picxs .dl2 dd p i{ color:#e55858;}
+.la_picxs .w_644{ height:313px;}
+.la_picxs .t_ul{ width:645px;}
+.la_picxs .t_ul li{ width:178px; padding:30px 18px; border:1px solid #e5e5e5; border-width:0 1px 1px 0; float:left;}
+
+/*MOD-6*/
+.la_xin_datum .pd{ padding:0 18px;}
+.la_xin_datum .pd .re_gamedatum:last-child{ border:none;}
+.hp_item .t{ width:82px; height:147px;}
+.hp_item .t .bo{ height:61px; overflow:hidden; padding:12px 0 0 18px;}
+.hp_item .t .bo p{ width:33px; height:36px; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; font-size:14px; line-height:18px; color:#fff; padding:6px 9px; font-weight:600;}
+/*MOD-7*/
+.hp_item .t .t1{border-bottom:1px solid #f2f4f4;}
+.hp_item .t .t1 p{ background-position:0 -257px;}
+.hp_item .t .t2 p{ background-position:0 -305px;}
+.hp_item ul{ width:895px;}
+.hp_item ul li{ width:178px; height:73px; overflow:hidden; float:left; border-left:1px solid #f2f4f4;border-bottom:1px solid #f2f4f4;}
+.hp_item ul li a{width:178px; height:73px; line-height:73px; font-size:14px; text-align:center; display:block;}
+.hp_item ul li a:hover{ color:#fff; background-color:#e55858; text-decoration:none;}
+
+/*MOD-8*/
+.la_imgshow{ width:1000px;}
+.la_imgshow li{width:230px; height:86px; margin-right:20px; display:inline; float:left;}
+.la_imgshow li img{ width:230px; height:86px; display:block;}
+/*MOD-9*/
+.la_equip_show .tab_menu{ padding-left:140px; }
+.la_equip_show .tab_main{ padding:20px 0;}
+.la_equip_show .tab_main ul{ width:966px; padding:0 7px;}
+.la_equip_show .tab_main ul li{ width:98px; margin:20px 20px 0; display:inline; float:left;}
+.la_equip_show .tab_main ul li img{ width:88px; height:88px; padding:4px; border:1px solid #d3e4e5; background-color:#ecf2f3; display:block;}
+.la_equip_show .tab_main ul li p{ height:36px; line-height:36px; overflow:hidden; text-align:center; font-size:14px;}
+
+/*MOD-10*/
+.re_t_32{ width:32px;}
+.re_t_32 a{ width:32px; height:14px; line-height:14px; text-align:center; color:#fff; background-color:#60a4e7; display:block;}
+.re_t_32 .re_tit_bg1{ width:20px; padding:58px 6px; height:88px;}
+.re_t_32 .re_tit_bg2{ width:20px; padding:20px 6px; height:88px;}
+.la_imgtext{ width:928px;}
+.la_imgtext li{width:290px; overflow:hidden; margin-right:29px; display:inline; float:left;}
+.la_imgtext li img{ width:290px; height:218px; display:block;}
+.la_imgtext li p{ height:36px; line-height:36px; overflow:hidden; font-size:14px; text-align: center}
+.la_imgtext li p i.i1{ color:#e55858;}
+.la_imgtext li p i.i2{ color:#4d95da;}
+.la_imgtext li p i.i3{ color:#509049;}
+.la_imgtext li a:hover,.re_t_32 a:hover{ text-decoration:none;}
+
+/*MOD-11*/
+.re_video .pln,.la_kpai .pln{ padding-left:140px; }
+.re_video .tab_main{ padding-top:14px;}
+.re_video .tab_main ul{ width:687px; overflow:hidden;}
+.re_video .tab_main ul li{ width:200px; margin:16px 29px 0 0; display:inline; float:left;}
+.re_video .tab_main ul li img{ width:200px; height:150px; display: block;}
+.re_video .tab_main ul li p{ height:36px; line-height:36px; font-size:14px; overflow:hidden;text-align: center;}
+.re_video .tab_main ul li a{ display:block; position:relative;}
+.re_video .tab_main ul li .cov{ position:absolute; width:200px; height:150px; top:0; left:0; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat;cursor:pointer; display:none;}
+.re_video .tab_main ul li .cov span{ width:52px; height:52px; display:block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -459px no-repeat; margin:49px auto 0;}
+.re_video .tab_main ul li a:hover .cov{ display: block;}
+.re_glv .pic{ width:260px; height:196px; overflow:hidden;padding:30px 14px 0;}
+.re_glv .pic img{ width:260px; height:196px; display:block;}
+.re_glv .pic a{ display:block; position:relative;}
+.re_glv .pic p{ width:236px; height:36px; line-height:36px; padding:0 12px; overflow:hidden; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat; position:absolute; bottom:0; left:0; color:#fff; font-size:14px;}
+
+.re_glv .con{ padding:10px 0;}
+.re_glv .con ul{ width:100%;}
+.re_glv .con ul li{ height:42px; font-size:14px; line-height:42px; overflow:hidden;}
+.re_glv .con ul li a{ height:42px; display: block; padding:0 14px 0 30px; overflow:hidden; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 18px -1025px no-repeat;}
+.re_glv .con ul li code{color:#7f7f7f; font-size:12px;}
+.re_glv .con ul li a:hover{ background-color:#f4f4f4; text-decoration:none; background-position:18px -1062px;}
+.re_glv .con ul li a:hover code{color:#ff3600;}
+.re_glv .con ul li span{ width:16px; height:16px; display:inline-block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -906px no-repeat; vertical-align:middle; margin-left:5px;}
+
+/*MOD-12*/
+.la_lantern{ width:978px; height:186px;overflow:hidden; padding:30px 0 20px;}
+.la_lantern,.scrollDiv{position:relative; z-index:2}
+.la_lantern .rightscroll,.la_lantern .leftscroll{ position:absolute;top:92px; display:block;width:20px; height:50px;overflow:hidden; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; z-index:5; background-color:#add2f5;}
+.la_lantern .leftscroll{left:0; background-position:0 -802px;}
+.la_lantern .rightscroll{ right:0; background-position:0 -752px;}
+.la_lantern .leftscroll:hover,.la_lantern .rightscroll:hover{ background-color:#4d95da;}
+.la_lantern .scrollDiv{ margin:0 auto; font-size:12px; width:890px; height:186px; overflow:hidden;}
+.la_lantern .scrollDiv ul{position:absolute; width:400%;}
+.la_lantern .scrollDiv li{width:200px; margin:0 30px 0 0;height:186px; overflow:hidden; display:inline; float:left;}
+.la_lantern .scrollDiv img{ width:200px; height:150px; display:block;overflow:hidden; }
+.la_lantern .scrollDiv ul li p{ height:36px; line-height:36px; font-size:14px; overflow:hidden; text-align: center;}
+.la_lantern .scrollDiv ul li a{ display:block; position:relative;}
+.la_lantern .scrollDiv ul li .cov{ position:absolute; width:200px; height:150px; top:0; left:0; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat;cursor:pointer; display:none;}
+.la_lantern .scrollDiv ul li .cov span{ width:52px; height:52px; display:block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -459px no-repeat; margin:49px auto 0;}
+.la_lantern .scrollDiv ul li a:hover .cov{ display: block;}
+
+/*MOD-13*/
+.str_ml{ margin-left:40px; display:inline;}
+.la_strategy .re_textul{ margin-top:6px;}
+.re_textul{ width:100%;}
+.re_textul li{ height:42px; font-size:14px; line-height:42px; overflow:hidden;}
+.re_textul li a{ height:41px; display: block; padding:0 10px 0 18px; overflow:hidden; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 6px -1025px no-repeat; border-bottom:1px dotted #c5c5c5;}
+.re_textul li code{color:#7f7f7f; font-size:12px;}
+.re_textul li a:hover{ background-color:#f4f4f4; text-decoration:none; background-position:6px -1062px;}
+.re_textul li a:hover code{color:#ff3600;}
+.re_textul li i{ color:#e55858;}
+.la_strategy .c_item{border-bottom:1px dotted #c5c5c5; padding:8px 0 12px;}
+.la_strategy .c_item h4{ font-size:16px; height:32px; line-height:32px; overflow:hidden;}
+.la_strategy .it1 h4 i{ color:#e55858; font-weight:normal;}
+.la_strategy .it2 h4 i{ color:#4d95da; font-weight:normal;}
+.la_strategy .c_item p{ height:44px; line-height:22px; overflow:hidden; color:#7f7f7f;}
+.la_strategy .c_item h4 span{ width:16px; height:16px; display:inline-block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -906px no-repeat; vertical-align:middle; margin-left:5px;}
+.la_strategy dl{ height:92px; padding:20px 0; overflow:hidden;border-bottom:1px solid #e5e5e5;}
+.la_strategy dl dt{ width:122px; height:92px; float:left; overflow:hidden;}
+.la_strategy dl dt img{  width:122px; height:92px; display:block;}
+.la_strategy dl dd{ width:152px; padding-left:15px; float:left;}
+.la_strategy dl dd h4{ height:20px; line-height:20px; overflow:hidden; font-size:16px;}
+.la_strategy dl dd h4 a{ color:#e55858;}
+.la_strategy dl dd p{height:44px; line-height:22px; overflow:hidden; color:#7f7f7f; margin-top:8px;}
+.la_strategy dl dd .btn{ height:20px; overflow:hidden; margin-top:5px;}
+.la_strategy dl dd .btn a{float:right;}
+
+
+/*MOD-14*/
+.la_kpai .tab_main { padding:15px 0 18px;}
+.la_kpai .tab_main ul{ width:100%;}
+.la_kpai .tab_main ul li{ width:128px; margin:18px 0 0 20px; display:inline; float:left;}
+.la_kpai .tab_main ul li img{ width:128px; height:162px; display:block;}
+.la_kpai .tab_main ul li p{ height:36px; line-height:36px; overflow:hidden; text-align:center; font-size:14px;}
+.la_kpai .tab_main ul li a{ display:block; position:relative;}
+.la_kpai .tab_main ul li .cov{width:112px; height:132px; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat; position:absolute; top:0; left:0; color:#fff; cursor:pointer; font-size:14px; line-height:20px; padding:15px 8px; display:none;}
+.la_kpai .tab_main ul li a:hover .cov{ display:block;}
+
+/*MOD-16*/
+.la_slider{width:980px;height:360px;overflow:hidden;background:#000; position:relative;}
+.la_slider .slide{position:absolute;top:0px;height:360px;width:558px;background:#000;overflow:hidden;border-left:#fff solid 4px;cursor:default;}
+.la_slider .diapo{position:absolute;filter:alpha(opacity=100);opacity:1;visibility:hidden;height:360px; width:256px;display:block;}
+.la_slider .info{ width:278px; height:360px; padding:0 12px; background-color:#fff; position:absolute; right:0; top:0;}
+.la_slider .info .tit{ height:28px; line-height:28px; overflow:hidden;}
+.la_slider .info .tit h4{ font:24px/28px "微软雅黑"; color:#3299f8;}
+.la_slider .info .tit a.fr{ margin-top:4px; display:inline;}
+.la_slider .info .c{ padding:7px 5px; background-color:#f2f1f1; margin-top:10px;}
+.la_slider .info .c p{color:#7f7f7f; height:48px; line-height:24px; overflow:hidden; font-family:"微软雅黑";}
+.la_slider .info .c p i{ width:28px; height:16px; line-height:16px; border:1px solid #f4c9c8; display:inline-block; vertical-align:middle; text-align:center; color:#e55858; border-radius:2px; margin-right:4px;}
+.la_slider .info .str{ height:16px; line-height:16px; overflow:hidden; margin-top:10px; padding:0 5px;}
+.la_slider .info .str .x{ height:16px; width:91px; background:url(http://www.18183.com/templets/dtll/img/ico_xin.png) 0 -14px no-repeat;}
+.la_slider .info .str .x span{ height:16px; display:block;background:url(http://www.18183.com/templets/dtll/img/ico_xin.png) 0 1px no-repeat;}
+.la_slider .info .tec{ width:100%; overflow:hidden;}
+.la_slider .info .tec li{ width:90px; height:30px; margin:1px 1px 0 0; display:inline; float:left;}
+.la_slider .info .tec li a{ width:90px; height:30px; display:block;background-color:#f2f1f1; text-align:center; line-height:30px; overflow:hidden;}
+.la_slider .info .tec li a:hover{ color:#fff; background-color:#e55858; text-decoration:none;}
+.la_slider .info .recom{ height:72px; overflow:hidden;}
+.la_slider .info .recom .t{ width:15px; height:62px; line-height:15px; color:#4d95da; font-weight:600; background:url(img/ico_tuij.png) left top no-repeat; padding:5px 6px;}
+.la_slider .info .recom ul li{ width:72px; height:72px; overflow:hidden; margin-left:10px;display:inline; float:left;}
+.la_slider .info .recom ul li img{ width:66px; height:66px; padding:3px; background-color:#e6edf3; display:block;}
+
+
+/*MOD-17*/
+.la_lank { height:128px; overflow:hidden;}
+.la_lank .re_tit_bg1{padding:20px 6px;}
+.la_lank .box{ width:946px; margin-top:20px;}
+.la_lank .box li{ width:132px; padding-left:50px; height:28px; line-height:28px; float:left; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 36px -1030px no-repeat; overflow:hidden;}
+.la_lank .box li a{ color:#909090;}
+
+/*内页通用右列*/
+.re_right_ar .mod2_pic_text .pic{ width:292px; height:216px;}
+.re_right_ar .mod2_pic_text .pic img,.re_right_ar .mod2_pic_text .pic a{width:292px; height:216px;}
+.re_right_ar .mod2_pic_text .pic .info{ width:262px; height:38px;}
+.re_right_ar .mod2_pic_text .pic .info h4{ height:20px; line-height:20px; font-size:14px;}
+.re_right_ar .mod2_pic_text .pic .info p{ height:18px;line-height:18px;}
+.re_right_ar .mod2_pic_text ul{ width:296px;}
+.re_right_ar .mod2_pic_text ul li{ width:144px; height:52px;}
+.re_right_ar .mod2_pic_text ul li a{ width:144px; height:52px;line-height:52px; font-size:14px; }
+.re_right_ar .la_prospect dl dd{ width:176px;}
+.re_right_ar .la_prospect ul li{width:121px;}
+.re_right_ar .pdtb{ padding:10px 0;}
+.re_right_ar .pdtb .bi{ width:22px; height:30px;background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; overflow:hidden; vertical-align:middle; display:inline-block;}
+.re_right_ar .pdtb .new{ background-position:3px -704px;}
+.re_right_ar .pdtb .hot{ background-position:3px -675px;}
+.re_right_ar .pdtb .newr{ background-position:3px -646px;}
+.re_right_ar .la_peck dl dd{ width:176px; }
+.re_right_ar .la_peck dl dd code{ color:#7f7f7f;}
+.re_right_ar .la_peck dl dd .btn{margin-top:0;}
+.re_right_ar .la_imgshow{ width:100%;}
+.re_right_ar .la_imgshow li{width:100%; height:74px; margin:10px 0 0;float:none; display:block; overflow:hidden;}
+.re_right_ar .la_imgshow li img{ width:100%; height:74px;}
+.re_right_ar .picxs_show{ width:290px; padding:15px 0;}
+.re_right_ar .la_picxs .tab_main{ padding:15px 0 0;}
+.re_right_ar .la_picxs .dl1{ padding:0 15px; width:260px;}
+.re_right_ar .la_picxs .dl1 dt{ width:88px; height:88px;}
+.re_right_ar .la_picxs .dl1 dt img{ width:88px; height:88px;}
+.re_right_ar .la_picxs .dl1 .dd1{ padding-left:10px; width:152px;}
+.re_right_ar .la_picxs .dl1 .dd1 h4{ height:24px; line-height:24px; font-size:14px;}
+.re_right_ar .la_picxs .dl1 .dd1  p{ line-height:18px; height:18px; }
+.re_right_ar .la_picxs .dl1 .dd1  p span{ height:18px;}
+.re_right_ar .la_picxs .dl1 .dd1  p span.s1{ width:86px;}
+.re_right_ar .la_picxs .dl1 .dd1  p span.s2{ width:66px;}
+.re_right_ar .la_equip_show .tab_main{ padding:10px 0;}
+.re_right_ar .la_equip_show .tab_main ul{ width:276px;}
+.re_right_ar .re_glv .pic{ padding:20px 15px 0;}
+.re_right_ar .la_kpai .tab_main{ padding:10px 0 12px;}
+.re_right_ar .la_kpai .tab_main ul li{ margin:10px 0 0 11px}
+.re_right_c{ width:262px;padding:0 14px 14px; overflow:hidden;}
+.re_right_c .m_dom{ overflow:hidden;}
+.re_right_c .m_dom .con{ padding-top:14px;}
+.re_right_c .r_t{ width:100%; height:30px; background:#eee;line-height:30px; font-size:14px; margin-top:14px;}
+.re_right_c .r_t h5{ font-weight:normal; padding-left:10px;}
+.re_right_c .r_t span{ width:30px; height:30px; display:inline-block; background:url(http://www.18183.com/templets/dtll/img/ico_r_dow.png) 10px -8px no-repeat; cursor:pointer;}
+.re_right_c .r_t span.backp{ background-position:10px 12px;}
+.re_right_c .ul_l1{ width:284px; overflow:hidden;}
+.re_right_c .ul_l1 li{ width:120px;margin-right:22px;display:inline; float:left;}
+.re_right_c .ul_l1 li img{ width:120px; height:90px; display:block;}
+.re_right_c .ul_l1 li p{ height:34px; line-height:34px; overflow:hidden; text-align:center; cursor:pointer;}
+.re_right_c .ul_l1 li a:hover{ text-decoration:none;}
+.re_right_c .ul_text{ width:100%;}
+.re_right_c .ul_text li{ height:34px;line-height:34px; overflow:hidden; float:left; width:114px; padding-right:17px;}
+.re_right_c .ul_text li a{ height:34px; display: block; padding:0 0 0 15px; overflow:hidden; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 8px -1027px no-repeat;}
+.re_right_c .ul_text li a:hover{text-decoration:none; background-position:8px -1064px;}
+
+/*分页*/
+.la_pag{overflow:hidden;}
+.la_paging{overflow:hidden;font-size:14px; margin-top:20px;}
+.la_paging li.active span{padding:0 9px; height:24px; line-height:24px;display:inline-block; color:#fff;overflow:hidden;}
+.la_paging li{background-color:#fff; display:inline-block; color:#404040;margin-left:4px;overflow:hidden; float:left;}
+.la_paging span.disabled,.la_paging .disabled span,.la_paging span.pageinfo{padding: 0 9px;line-height:24px; border:1px solid #d9d9d9; display:inline-block;height:24px; float: left; color: #404040;}
+.la_paging a{ padding: 0 9px; border:1px solid #d9d9d9; line-height:24px;display:inline-block; height:24px; float: left; color:#404040;}
+.la_paging a:hover{color:#e55858;}
+.la_paging a.active,.la_paging li.active span,.la_paging li.active a{background-color:#e55858;border:1px solid #d9d9d9; color:#fff;}
+
+
+/*列表*/
+.la_crumbs{ height:24px; line-height:24px; background-color:#f3f3f3; overflow:hidden; display:block; padding:0 12px;}
+.la_ls1{ width:100%; overflow:hidden;}
+.la_ls1 dl{ width:100%; overflow:hidden; margin-top:30px;}
+.la_ls1 dl dt{ width:200px; height:150px; float:left;}
+.la_ls1 dl dt img{ width:200px; height:150px; display:block;}
+.la_ls1 dl dd{ width:455px; height:148px; float:right;border-bottom:1px dotted #c5c5c5; overflow:hidden; position:relative;}
+.la_ls1 dl dd h4{ height:18px; line-height:18px; overflow:hidden; margin-top:10px;}
+.la_ls1 dl dd h4 a{ color:#e55858; font-size:16px;}
+.la_ls1 dl dd p{ color:#7f7f7f; line-height:26px; height:78px; overflow:hidden; margin-top:12px;}
+.la_ls1 dl dd .re_com{ position:absolute; right:5px; bottom:12px; background-color:#fff;}
+
+.re_video_list{ overflow:hidden;}
+.re_video_list ul{ width:712px; overflow:hidden;}
+.re_video_list ul li{ width:200px; margin:15px 37px 0 0; display:inline; float:left;}
+.re_video_list ul li img{ width:200px; height:150px; display: block;}
+.re_video_list ul li p{ height:36px; line-height:36px; font-size:14px; overflow:hidden;}
+.re_video_list ul li a{ display:block; position:relative;}
+.re_video_list ul li .cov{ position:absolute; width:200px; height:150px; top:0; left:0; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat;cursor:pointer; display:none;}
+.re_video_list ul li .cov span{ width:52px; height:52px; display:block; background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 0 -459px no-repeat; margin:49px auto 0;}
+.re_video_list ul li a:hover .cov{ display: block;}
+
+.fy_lantern{ height:auto;padding:10px 0;}
+.fy_lantern .scrollDiv{ width:100%; height:auto;}
+.fy_lantern .scrollDiv ul{ width:978px; position:relative;}
+.fy_lantern .scrollDiv ul li{margin: 10px 0 0 35px;}
+
+.la_list_bat{ padding:20px 0 0;}
+.la_list_bat ul{ width:938px; padding:0 20px;}
+.la_list_bat ul li{ width:98px; margin:20px 29px 0; display:inline; float:left;}
+.la_list_bat ul li img{ width:88px; height:88px; padding:4px; border:1px solid #d3e4e5; background-color:#ecf2f3; display:block;}
+.la_list_bat ul li p{ height:36px; line-height:36px; overflow:hidden; text-align:center; font-size:14px;}
+.la_list_bat .info{ width:878px; height:50px; line-height:50px; border-top:1px dotted #c5c5c5; margin:0 auto; padding:0 30px; overflow:hidden;}
+.la_list_bat .info code{ font-weight:900;}
+.la_list_bat .info .fr{ margin-top:15px;}
+.w_675 .la_equip_show .tab_main ul{ width:673px; padding:0;}
+.w_675 .la_equip_show .tab_main ul li{margin: 20px 18px 0;}
+.la_array{ width:673px;overflow:hidden; padding:30px 0 15px;}
+.la_array,.scrollDiv{position:relative; z-index:2}
+.la_array .rightscroll,.la_array .leftscroll{ position:absolute;top:58px; display:block;width:20px; height:50px;overflow:hidden; background-image:url(http://www.18183.com/templets/dtll/img/ico_gather.png); background-repeat:no-repeat; z-index:5; background-color:#add2f5;}
+.la_array .leftscroll{left:0; background-position:0 -802px;}
+.la_array .rightscroll{ right:0; background-position:0 -752px;}
+.la_array .leftscroll:hover,.la_array .rightscroll:hover{ background-color:#4d95da;}
+.la_array .scrollDiv{ margin:0 auto; font-size:12px; width:512px; height:134px; overflow:hidden;}
+.la_array .scrollDiv ul{ width:400%;position:absolute;}
+.la_array .scrollDiv ul li{ width:98px; overflow:hidden; margin:0 40px 0 0; display:inline; float:left;}
+.la_array .scrollDiv ul li img{ width:88px; height:88px; padding:4px; border:1px solid #d3e4e5; background-color:#ecf2f3; display:block;}
+.la_array .scrollDiv ul li p{ height:36px; line-height:36px; overflow:hidden; text-align:center; font-size:14px;}
+.la_array .info{ width:513px; color:#7f7f7f; border-top:1px dotted #c5c5c5; margin:15px auto 0; padding:15px 65px 0; position:relative;}
+.la_array .info p{height:48px;line-height:24px;overflow:hidden; }
+.la_array .info code{ font-weight:900; color:#404040;}
+.la_array .info span{ position:absolute; right:70px; bottom:2px;}
+
+
+/*文章页*/
+.la_article{ width:655px; padding:20px 10px 0;}
+.la_article b,.la_article h1{width:100%;font:22px/46px "微软雅黑"; text-align:center; font-weight:normal;height:46px; overflow:hidden; display:block; color:#e55858;}
+.la_article .tit_bk_fx{color:#808080;line-height:22px; height:22px;text-align:center;padding-bottom:20px;}
+.la_article .tit_bk_fx span{ margin:0 5px;}
+.la_article .txtinfo {background:#f0f0f0;border:1px solid #ccc;color:#666666; line-height: 22px;margin-bottom:20px;overflow: hidden;padding:10px;text-indent: 2em;width:633px;}
+.la_article .article_box{font-size:14px;line-height:24px;}
+.la_article .article_box p{margin:14px 0; text-indent:2em;}
+.la_article .article_box img{max-width:655px; vertical-align:middle;}
+.la_article .article_box center{margin:14px 0;}
+.la_article .article_box a{color:#509be1;}
+.la_article .collect{ height:24px; line-height:24px; overflow:hidden; padding:25px 100px; border-bottom:1px solid #e5e5e5;}
+.la_article .collect p,.la_article .collect span{ float:left;}
+.la_article .collect p i{color:#e55858;}
+.la_article .collect span{ height:24px; display:inline-block;background-image:url(http://www.18183.com/templets/dtll/img/ico_art.png); background-repeat:no-repeat; color:#fff; padding:0 18px 0 24px; margin-left:12px; cursor:pointer;}
+.la_article .collect span.s1{ background-color:#e55858; background-position:7px 7px;}
+.la_article .collect span.s2{ background-color:#3299f8; background-position:7px -24px;}
+.la_article .pic_crossing{ width:100%; overflow:hidden;}
+.la_article .pic_crossing ul{ width:675px;}
+.la_article .pic_crossing ul li{ width:205px; margin-right:20px; display:inline; float:left;}
+.la_article .pic_crossing ul li img{ width:205px; height:68px; display:block;}
+.la_article .zq_info ul.ul1{ width:655px;}
+.la_article .zq_info ul.ul1 li{ width:130px; height:147px; border:1px solid #eee; border-width:0 1px 1px 0; float:left;}
+.la_article .zq_info ul.ul1 li a{width:130px; height:127px; border-bottom:3px solid #fff;display:block; padding-top:17px;}
+.la_article .zq_info ul.ul1 li img{ width:78px; height:78px; display:block; margin:0 auto; padding:5px; background-color:#e6edf3;}
+.la_article .zq_info ul.ul1 li p{ height:38px; line-height:38px; overflow:hidden; text-align:center; font-size:14px;}
+.la_article .zq_info ul.ul1 li a:hover{ text-decoration:none;border-bottom:3px solid #e55858; background-color:#e57f7f;}
+.la_article .zq_info ul.ul1 li a:hover p{ color:#fff;}
+.la_article .zq_info ul.ul2{ width:655px;}
+.la_article .zq_info ul.ul2 li{ width:60px; height:40px; padding:18px 35px; border:1px solid #eee; border-width:0 1px 1px 0; float:left;}
+.la_article .zq_info ul.ul2 li p{ height:40px; line-height:20px; overflow:hidden; font-size:14px;}
+.la_article .re_textul{ width:100&; overflow:hidden;}
+.la_article .re_textul li{width:296px; height:30px; font-size:12px; line-height:30px; margin:0 15px; display:inline; overflow:hidden; float:left;}
+.la_article .re_textul li a{height:29px;background:url(http://www.18183.com/templets/dtll/img/ico_gather.png) 6px -1029px no-repeat; border:none; color:#7f7f7f;}
+.la_article .re_textul li a:hover{background-position:6px -1066px; color:#e55858;}
+.la_article .pd_game{ width:653px; height:91px; border:1px solid #e6e6e6;}
+.la_article .pd_game dt{ width:75px; height:75px;float:left;padding:8px 0 0 20px;}
+.la_article .pd_game dt img{ width:75px; height:75px; display:block;}
+.la_article .pd_game dd.ds1{ width:328px; margin-left:20px; display:inline; float:left;padding:8px 0;}
+.la_article .pd_game dd.ds1 h4{font:22px/24px "微软雅黑"; height:24px; overflow:hidden; color:#e55858;}
+.la_article .pd_game dd.ds1 ul{ width:100%; height:40px; margin-top:7px;}
+.la_article .pd_game dd.ds1 ul li{ width:50%; height:22px; line-height:22px; overflow:hidden; float:left;}
+.la_article .pd_game dd.ds1 ul li i{ color:#808080; float:left;}
+.la_article .pd_game dd.ds1 ul li span{ height:22px; width:17px; display:inline-block; float:left; background-image:url(http://www.18183.com/templets/dtll/img/ico_xtong.png); background-repeat:no-repeat; margin-right:7px;}
+.la_article .pd_game dd.ds1 ul li span.iphone{ background-position:0 0;}
+.la_article .pd_game dd.ds1 ul li span.ipad{ background-position:-24px 0;}
+.la_article .pd_game dd.ds1 ul li span.android{ background-position:-46px 0;}
+.la_article .pd_game dd.ds1 ul li a{ color:#e55858;}
+.la_article .pd_game dd.ds2{ width:158px; height:52px; float:left;padding:19px 0 20px 30px; background:url(http://www.18183.com/templets/dtll/img/ico_lbg.jpg) left top repeat-y;}
+.la_article .pd_game dd.ds2 a{ width:98px; height:52px; background:url(http://www.18183.com/templets/dtll/img/ico_inside.jpg) 0 -52px no-repeat; display:block;font:18px/52px "微软雅黑"; color:#fff; font-weight:600; padding-left:60px;}
+.la_article .pd_game dd.ds2 a:hover{ text-decoration:none; background-position:0 0;}
+.art_imgtext li{ width:140px; height:105px; overflow:hidden; margin:12px 0 0 12px;display:inline; float:left;}
+.art_imgtext li img,.art_imgtext li a{ width:140px; height:105px; display:block; position:relative;}
+.art_imgtext li .cov{ width:90px; height:41px; background:url(http://www.18183.com/templets/dtll/img/cover_pic.png) left top repeat; position:absolute; left:0; top:0; padding:32px 25px; display:none;}
+.art_imgtext li .cov p{ height:40px; line-height:20px; overflow:hidden; color:#fff; font-size:14px;}
+.art_imgtext li a:hover .cov{ display:block;}
+
+/*普通新闻列表（无图）*/
+
+.text_la_ls1{ width:100%; overflow:hidden;}
+.text_la_ls1 dl{ width:100%; overflow:hidden; margin-top:30px;}
+.text_la_ls1 dl dd{ height:148px;border-bottom:1px dotted #c5c5c5; overflow:hidden; position:relative;}
+.text_la_ls1 dl dd h4{ height:18px; line-height:18px; overflow:hidden; margin-top:10px;}
+.text_la_ls1 dl dd h4 a{ color:#e55858; font-size:16px;}
+
+.text_la_ls1 dl dd p{ color:#7f7f7f; line-height:26px; height:78px; overflow:hidden; margin-top:12px;}
+.text_la_ls1 dl dd .re_com{ position:absolute; right:5px; bottom:12px; background-color:#fff;}
+
+/*返回顶部*/
+.al_backTop{ width:54px; height:54px; position:fixed; _position:absolute; left:50%; bottom:150px; margin-left:520px; cursor:pointer;}
+.al_backTop a{width:54px; height:54px; display:block; background: url(http://www.18183.com/templets/dtll/img/backtop.png) 2px 0 no-repeat; text-indent:-9999px;}
+.al_backTop a:hover{ background-position:-78px 0;}
+
+.ad_r_460{width:460px; overflow:hidden; position:absolute; top:45px; right:50%;margin-right:-960px;z-index:10;}
+	.ad_l_460{width:460px; overflow:hidden; position:absolute; top:45px; left:50%; margin-left:-964px;z-index:10;}
+	.ad_700_300{width:700px;position:fixed; left:50%; top:200px; overflow:hidden; z-index:200; display:none;}
+	.ad_270_200{ width:270px; position:fixed;overflow:hidden; z-index:200;right:0;bottom:60px;box-shadow: 2px 0 10px #333333;display:none;}
+	.ad_640_75{width:640px;overflow:hidden; margin:0 auto;}
+	.ad_280_233{width:280px;overflow:hidden; margin:0 auto;}
+
+
+
+.nav_search .gift a h1{ height:28px; line-height:28px; background:#fff; display:block; padding:0 10px; font-size:14px; border-radius:2px;font-weight:normal;}
+.re_tab_lan .tab_menu li h3,.re_tab_red .tab_menu li h3{display:inline;}
+
+
+.zp_lk_pdao {
+    background-color: #ededed;
+    border-radius: 20px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    transition: color 300ms ease 0s;
+    width: 100%;
+}
+.zp_lk_pdao span {
+    background: rgba(0, 0, 0, 0) url("http://img4.18183.duoku.com/uploads/pc/index/ico_lk_pdao.png") no-repeat scroll 0 12px;
+    display:inline-block;
+    height: 40px;
+    padding-left: 22px;
+}
+.zp_lk_pdao:hover {
+    background: #c0332c none repeat scroll 0 0;
+    color: #fff;
+}
+.zp_lk_pdao:hover span {
+    background-position: 0 -35px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
